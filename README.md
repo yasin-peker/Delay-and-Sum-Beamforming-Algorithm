@@ -12,6 +12,12 @@ This repository contains the implementation of a Delay-and-Sum (DAS) Beamforming
 ## Introduction
 Beamforming is a signal processing technique used to focus the reception of signals from a specific direction. In this algorithm, we employ a Uniform Linear Array (ULA) with a specified number of elements to perform DAS beamforming. The goal is to apply time delays to the received signals, sum them constructively, and determine the angle of arrival that produces the strongest response.
 
+## Delay and Sum Beamforming Workflow
+
+<div align="center">
+  <img src="results/steering.png" alt="Delay and Sum Beamforming Workflow">
+</div>
+
 The key steps of the algorithm include:
 
 Generating a transmitted signal with Additive White Gaussian (AWG) noise.
